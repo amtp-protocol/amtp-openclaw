@@ -1,0 +1,28 @@
+{
+  "name": "amtp-openclaw",
+  "version": "0.1.0",
+  "description": "AMTP skill for OpenClaw — cross-machine agent messaging via Agentry federation",
+  "type": "module",
+  "bin": {
+    "amtp": "./scripts/amtp.mjs"
+  },
+  "scripts": {
+    "start": "node scripts/amtp.mjs"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "keywords": [
+    "amtp",
+    "openclaw",
+    "agentry",
+    "agent",
+    "messaging",
+    "federation"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amtp-protocol/amtp-openclaw.git"
+  }
+}
